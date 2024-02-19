@@ -1,7 +1,3 @@
-@import "./normalize.css";
-
-
-
 /* Шрифты */
 @font-face {
   font-family: "Space_Grotesk";
@@ -363,6 +359,17 @@ h2::before {
   position: relative;
   overflow: hidden;
 }
+.section .first-bg-image {
+  position: absolute;
+  top: -13%;
+  right: 6%;
+}
+.section .second-bg-image {
+  position: absolute;
+  z-index: 0;
+  bottom: -13%;
+  left: 6%;
+}
 
 .our_title {
   color: #FFFFFF;
@@ -424,6 +431,7 @@ h2::before {
   flex-wrap: wrap;
   gap: 48px;
   padding-top: 48px;
+  z-index: 1;
 }
 
 .promise_title {
@@ -450,13 +458,6 @@ h2::before {
   border: 32px;
   border-radius: 8px;
   row-gap: 24px;
-}
-
-.fon_eps3 {
-  position: absolute;
-  top: -25%;
-  left: 13%;
-
 }
 
 .div_for_fon {
@@ -527,21 +528,45 @@ h2::before {
   font-weight: 400;
 }
 
-.scroll_testimonials {
+.wrapper {
   margin: 48px 16px;
-  overflow-x: auto;
+  overflow: auto;
+  position: relative;
+  height: 530px;
+  width: 320px;
+}
+.scroll_testimonials {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  gap: 24px;
+}
+.stars {
+  padding: 24px;
+  width: 300px;
+  height: 500px;
   gap: 24px;
   display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 
-.stars {}
-
+.stars img {
+  width: 120px;
+}
 .star_text {
   color: #98A2B3;
   font-size: 1.8rem;
+  height: 390px;
 }
 
-.star_text_1 {}
+.star_text_1 {
+  font-size: 1.8rem;
+  color: #1A1E42;
+}
 
 .star_button {
   background-color: #00B67A;
@@ -756,12 +781,10 @@ h2::before {
   border-radius: 8px;
   padding: 32px 16px;
 }
+.contacts > img {
 
-.contacts__input {
-  display: flex;
-  flex-direction: row;
 }
-
+/*  */
 .textcolor {
   font-size: 2.2rem;
   text-align: center;
@@ -796,6 +819,7 @@ h2::before {
   align-items: flex-start;
   padding: 32px 24px;
   gap: 24px;
+  border-radius: 8px;
 }
 
 .seo_title {
@@ -829,6 +853,7 @@ h2::before {
 }
 
 .footer_container {
+  margin: 0 auto;
   padding: 60px 16px;
   background-color: #D0D5DD;
 }
