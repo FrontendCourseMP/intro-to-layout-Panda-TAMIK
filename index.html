@@ -12,12 +12,29 @@
 </head>
 
 <body>
-  <header>
-    <div class="header__container">
-      <img class="header__logo" src="./img/ReWallet.svg" alt="ReWallet">
-      <button class="header__button-menu" name="menu">
-        <img src="./img/nav_menu_button.svg" alt="navigation"></button>
+  <header class="header__container">
+    <img class="header__logo" src="./img/ReWallet.svg" alt="ReWallet">
+
+    <div class="header__navbar">
+      <nav class="navbar">
+        <a href="index.html">Why ReWallet?</a>
+        <a href="#">About us</a>
+        <a href="#">How does it work</a>
+        <a href="#">FAQ</a>
+        <a href="#">Wallets</a>
+        <a href="#">Blog</a>
+      </nav>
     </div>
+    <div class="header_btns">
+      <button class="header_langbtn">
+        <img src="img/world.svg" alt="">English</button>
+      <a class="header2_startnow_text" href="#">Start now</a>
+    </div>
+
+    <button class="header__button-menu" name="menu">
+      <img src="./img/nav_menu_button.svg" alt="navigation">
+    </button>
+
   </header>
   <main>
     <section class="regain">
@@ -61,16 +78,19 @@
           </ul>
           <p class="regain_subsubtitle">and many others.</p>
         </div>
-        <img src="./img/main_logo.svg" alt="company logo">
-        <ul class="logos2">
-          <li><img src="./img/finanzer_net.svg" alt="company logo"></li>
-          <li><img src="./img/btc_echo.svg" alt="company logo"></li>
-          <li><img src="./img/finanzfluss.svg" alt="company logo"></li>
-          <li><img src="./img/Cointelegraph.svg" alt="company logo"></li>
-          <li><img src="./img/locktrainer.svg" alt="company logo"></li>
-          <li><img src="./img/b2go.svg" alt="company logo"></li>
-        </ul>
       </div>
+      <img src="./img/main_logo.svg" alt="company logo">
+
+    </section>
+    <section class="logos_2">
+      <ul class="logos2">
+        <li><img src="./img/finanzer_net.svg" alt="company logo"></li>
+        <li><img src="./img/btc_echo.svg" alt="company logo"></li>
+        <li><img src="./img/finanzfluss.svg" alt="company logo"></li>
+        <li><img src="./img/Cointelegraph.svg" alt="company logo"></li>
+        <li><img src="./img/locktrainer.svg" alt="company logo"></li>
+        <li><img src="./img/b2go.svg" alt="company logo"></li>
+      </ul>
     </section>
     <section class="why_title">
       <img class="fon_eps" src="./img/Ellipse.svg">
@@ -114,40 +134,41 @@
                 which protects you comprehensively.
               </p>
           </li>
-          <a href="#">Unlock your Wallet now</a>
+          <h1></h1>
+          <a class="btn_why" href="#">Unlock your Wallet now</a>
         </div>
 
     </section>
     <section class="about_us">
-      <div>
-        <img src="./img/line_orange.svg" alt="line">
-        <h2>About us:<br>Our Story and Mission</h2>
-      </div>
-      <p>
-        We explored various aspects of cryptocurrencies, including using
-        Bitcoin for payments, mining, and trading with different strategies.
-        We also considered starting a company and extensively researched
-        Ethereum and smart contracts. However, we struggled to find a viable
-        business model. Concerns about government intervention and the
-        potential ban of Bitcoin always lingered. As a result, we pursued
-        other entrepreneurial ventures and found some validation when the
-        ICO wave ended with a crash. </p>
-      <p>
-        The positive developments in 2020 took
-        us by surprise. The influx of capital from established institutions,
-        including the financial industry, made it increasingly challenging
-        for the government to ban Bitcoin. However, we acknowledge that they
-        may still attempt to do so. Recently, when we attempted to transfer
-        our old, now more valuable Bitcoin and Ether to a new wallet, we
-        discovered that we had lost access to them completely. We were
-        unable to locate our wallets in the first place.
-      </p>
-      <div class="a_readmore">
-        <a href="#">Read more<img src="./img/show_more.svg" alt="show_more"></a>
       </div>
       <img class="img_izoiation" src="./img/isolation_mode.svg" alt="isolation_mode">
       </div>
+      <div class="About_our">
+        <img src="./img/line_orange.svg" alt="line">
+        <h2>About us:<br>Our Story and Mission</h2>
+        <p>
+          We explored various aspects of cryptocurrencies, including using
+          Bitcoin for payments, mining, and trading with different strategies.
+          We also considered starting a company and extensively researched
+          Ethereum and smart contracts. However, we struggled to find a viable
+          business model. Concerns about government intervention and the
+          potential ban of Bitcoin always lingered. As a result, we pursued
+          other entrepreneurial ventures and found some validation when the
+          ICO wave ended with a crash. </p>
+        <p>
+          The positive developments in 2020 took
+          us by surprise. The influx of capital from established institutions,
+          including the financial industry, made it increasingly challenging
+          for the government to ban Bitcoin. However, we acknowledge that they
+          may still attempt to do so. Recently, when we attempted to transfer
+          our old, now more valuable Bitcoin and Ether to a new wallet, we
+          discovered that we had lost access to them completely. We were
+          unable to locate our wallets in the first place.
+        </p>
+        <a href="#">Read more<img src="./img/show_more.svg" alt="show_more"></a>
+      </div>
     </section>
+    </div>
     <section class="section">
       <img class="first-bg-image" src="img/Ellipse.svg" alt="fon_eps3">
       <img class="second-bg-image" src="img/Ellipse.svg" alt="fon_eps3">
@@ -279,12 +300,12 @@
               the positive news. Then everything went quickly and I was back in
               possession of my Wallet.
             </p>
-            <p>Daniel</p>
+            <h3>Daniel</h3>
           </li>
           <hr>
         </ul>
       </div>
-      <a class="star_button">
+      <a class="star_button" href="#">
         <p>See our Reviews on</p>
         <img src="./img/star_trustpoilot.svg" alt="one_star">
       </a>
@@ -299,13 +320,13 @@
             The latest industry news, interviews, technologies, and resources.
           </p>
         </div>
-        <div class="blog_sect">
-          <div class="gap_rew">
+        <ul class="blog_sect">
+          <li class="gap_rew">
             <img src="./img/key.png" alt="key">
             <ul class="rewallet-ul__ava">
               <li>
-                <img class="rewallet_line" src="./img/ava.png" alt="avatar">
                 <p> Bruno Krauss</p>
+                <img class="rewallet_line" src="./img/ava.png" alt="avatar">
               </li>
               <li>
                 <p>28/04/2023</p>
@@ -316,15 +337,16 @@
                 <img src="./img/arrow_Icon.svg" alt="arrow">
               </p>
             </a>
-          </div>
-          <div class="gap_rew">
+          </li>
+          <li class="gap_rew">
             <img class="rewallet__img" src="./img/fishs.png" alt="fish">
             <ul class="rewallet-ul__ava">
-              <li class="rewallet_line"><img class="rewallet__imgavatar" src="./img/ava.png" alt="avatar">
-                <p class="rewallet__avatar"> Bruno Krauss</p>
+              <li>
+                <p> Bruno Krauss</p>
+                <img class="rewallet_line" src="./img/ava.png" alt="avatar">
               </li>
               <li>
-                <p class="rewallet__avatar">28/04/2023</p>
+                <p>28/04/2023</p>
               </li>
             </ul>
             <a href="">
@@ -333,15 +355,16 @@
                 It <img src="./img/arrow_Icon.svg" alt="arrow" class="arrow">
               </p>
             </a>
-          </div>
-          <div class="gap_rew">
+          </li>
+          <li class="gap_rew">
             <img class="rewallet__img" src="./img/doctors.png" alt="doc">
             <ul class="rewallet-ul__ava">
-              <li class="rewallet_line"><img class="rewallet__imgavatar" src="./img/ava.png" alt="avatar">
-                <p class="rewallet__avatar"> Bruno Krauss</p>
+              <li>
+                <p> Bruno Krauss</p>
+                <img class="rewallet_line" src="./img/ava.png" alt="avatar">
               </li>
               <li>
-                <p class="rewallet__avatar">28/04/2023</p>
+                <p>28/04/2023</p>
               </li>
             </ul>
             <a href="">
@@ -351,156 +374,200 @@
                 <img src="./img/arrow_Icon.svg" alt="arrow">
               </p>
             </a>
-          </div>
-        </div>
-        <a class="reg-discrbtn">See more articles</a>
+          </li>
+        </ul>
+        <a href="#" class="reg-discrbtn">See more articles</a>
       </div>
     </section>
     <section class="lost_section">
-      <div class="container">
-        <img src="img/line_orange.svg" class="line_center">
-        <h2 class="frequently_subtitle">Frequently asked questions</h2>
+      <div class="container_Frequently">
+        <img src="img/line_orange.svg">
+        <h2>Frequently asked questions</h2>
       </div>
-      <ul class="frequently__list">
 
-        <li>
-          <details class="details_mark">
-            <summary class="details">
-              <div class="frequently__button">
-                <a class="frequently__subsubtitle">Can you recover my wallet?</a>
-                <img src="./img/plus.svg" alt="plus_button" class="plus_img">
-            </summary>
-            <p class="frequently__text"> We cannot guarantee that we will be able to help you with your
-              wallet. However, we have already helped many clients with the
-              recovery of their wallets in the past. Through our word libraries,
-              our software tools and our optimized scripts, which we run on
-              high-performance hardware, we can help you find your wallet
-              password or your seedphrase. We can also help you with the
-              physical recovery of your wallet. Please send us a request via the
-              contact form and we will give you feedback if and how we can help
-              you. </p>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>
-              <div class="frequently__button">
-                <a class="frequently__subsubtitle">How do I start a request?</a>
-                <img src="./img/plus.svg" alt="plus_button" class="plus_img">
-            </summary>
-            <p class="frequently__text"> no info </p>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>
-              <div class="frequently__button">
-                <a class="frequently__subsubtitle">How does payment work?</a>
-                <img src="./img/plus.svg" alt="plus_button" class="plus_img">
-            </summary>
-            <p class="frequently__text"> no info </p>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>
-              <div class="frequently__button">
-                <a class="frequently__subsubtitle"> Can I communicate with you in encrypted form?</a>
-                <img src="./img/plus.svg" alt="plus_button" class="plus_img">
-            </summary>
-            <p class="frequently__text"> no info </p>
-          </details>
-        </li>
-      </ul>
-      </div>
-    </section>
-    <section class="about_us">
-      <div class="container">
-        <div><img src="img/line_orange.svg" alt="line_orange" class="line_orange_left">
-          <h2 class="start__subtitle">Start now</h2>
-        </div>
-        <p class="start__text">
-          You have lost access to your crypto wallet? Then you are in the
-          right place. Submit your request in just a few steps.
-        </p>
-        <ul class="start__list">
-          <li class="strat__li">
-            <img class="start__img" src="./img/jackdaw.svg" alt="jackdaw">
-            <p class="start__sublist">Free evaluation of your case</p>
+      <div class="frequently__list">
+        <ul>
+          <li>
+            <details>
+              <summary>
+                <a>
+                  <span>Can you recover my wallet?</span>
+                  <button>
+                    <img src="./img/plus.svg" alt="plus_button" class="plus_img">
+                  </button>
+                </a>
+              </summary>
+              <p> We cannot guarantee that we will be able to help you with your
+                wallet. However, we have already helped many clients with the
+                recovery of their wallets in the past. Through our word libraries,
+                our software tools and our optimized scripts, which we run on
+                high-performance hardware, we can help you find your wallet
+                password or your seedphrase. We can also help you with the
+                physical recovery of your wallet. Please send us a request via the
+                contact form and we will give you feedback if and how we can help
+                you. </p>
+            </details>
           </li>
-          <li class="strat__li">
-            <img class="start__img" src="./img/jackdaw.svg" alt="jackdaw">
-            <p class="start__sublist">Success Based Remuneration</p>
+          <li>
+            <details>
+              <summary>
+                <a>
+                  <span>How do I start a request?</span>
+                  <button>
+                    <img src="./img/plus.svg" alt="plus_button" class="plus_img">
+                  </button>
+                </a>
+              </summary>
+              <p> no info </p>
+            </details>
           </li>
-          <li class="strat__li">
-            <img class="start__img" src="./img/jackdaw.svg" alt="jackdaw">
-            <p class="start__sublist">Service agreement in compliant with EU and US Law</p>
+          <li>
+            <details>
+              <summary>
+                <a>
+                  <span>How does payment work?</span>
+                  <button>
+                    <img src="./img/plus.svg" alt="plus_button" class="plus_img">
+                  </button>
+                </a>
+              </summary>
+              <p> no info </p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>
+                <a class="frequently__button">
+                  <span> Can I communicate with you in encrypted form?</span>
+                  <button>
+                    <img src="./img/plus.svg" alt="plus_button" class="plus_img">
+                  </button>
+                </a>
+              </summary>
+              <p class="frequently__text"> no info </p>
+            </details>
           </li>
         </ul>
+      </div>
+      </div>
+    </section>
+    <section class="start_now">
+      <div>
+
+        <div class="container_start">
+          <img src="img/line_orange.svg" alt="line_orange">
+          <h2>Start now</h2>
+          <p>
+            You have lost access to your crypto wallet? Then you are in the
+            right place. Submit your request in just a few steps.
+          </p>
+        </div>
+        <div class="start__list">
+          <ul>
+            <li class="strat__li">
+              <img class="start__img" src="./img/jackdaw.svg" alt="jackdaw">
+              <p class="start__sublist">Free evaluation of your case</p>
+            </li>
+            <li class="strat__li">
+              <img class="start__img" src="./img/jackdaw.svg" alt="jackdaw">
+              <p class="start__sublist">Success Based Remuneration</p>
+            </li>
+            <li class="strat__li">
+              <img class="start__img" src="./img/jackdaw.svg" alt="jackdaw">
+              <p class="start__sublist">Service agreement in compliant with EU and US Law</p>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="contacts">
-        <img src="img/steps.svg" alt="">
-        <div class="button_flex">
-          <h3 class="textcolor">What wallet is it?</h3>
-          <button class="start__ask" id="btn1">Bitcoin</button>
-          <button class="start__ask" id="btn2">Ethereum (ERC-20)</button>
-          <button class="start__ask" id="btn3">Dogecoin</button>
-          <button class="start__ask" id="btn4">Other</button>
+
+        <div class="cintacts_inp">
+          <input id="radio1" type="radio" name="radio" value="1" checked>
+          <input id="radio2" type="radio" name="radio" value="2">
+          <input id="radio3" type="radio" name="radio" value="3">
+          <input id="radio4" type="radio" name="radio" value="4">
+        </div>
+        <h3 class="subtitle_grid">What wallet is it?</h3>
+
+        <article class="label_btn">
+          <label for="radio1">Bitcoin</label>
+          <label for="radio2">Ethereum (ERC-20)</label>
+          <label for="radio3">Dogecoin</label>
+          <label for="radio4">Other</label>
+        </article>
+
+
+      </div>
+    </section>
+
+    <section class="seo">
+      <div class="container_blue">
+        <img src="./img/av.png" alt="avceo">
+        <div class="seo_info">
+
+          <h2>Get in touch!</h2>
+          <p>Your contact - Bastian Knaf</p>
+          <div class="getin__list">
+            <ul>
+              <li>
+                <img src="./img/mail_Icon.svg" alt="emaill">
+                <a href="mailto:team@rewallet.de & body=hi" class="getin__textcolor">team@rewallet.de</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src="./img/tel_icon.svg" alt="telephone">
+                <a href="tel:+49 (0) 30 2359 13270" class="getin__textcolor">+49 (0) 30 2359 13270</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </section>
-    <section class="about_us">
-      <div class="container_blue">
-        <img class="getin__img" src="./img/av.png" alt="avceo">
-        <h2 class="seo_title">Get in touch!</h2>
-        <p class="getin__text">Your contact - Bastian Knaf</p>
-        <ul class="getin__list">
-          <li>
-            <img src="./img/mail_Icon.svg" alt="emaill">
-          </li>
-          <li>
-            <p class="getin__textcolor">team@rewallet.de</p>
-          </li>
-        </ul>
-        <ul class="getin__list">
-          <li>
-            <img src="./img/tel_icon.svg" alt="telephone">
-          </li>
-          <li>
-            <p class="getin__textcolor">+49 (0) 30 2359 13270</p>
-          </li>
-        </ul>
-      </div>
+
     </section>
   </main>
-  <footer>
-    <div class="footer_container">
-      <div>
-        <h3 class="footer_title">ReWallet</h3>
-        <ul class="rewallet__list">
-          <li class="rewallet__link"><a href="#" class="footer_text">Why ReWallet?</a></li>
-          <li class="rewallet__link"><a href="#" class="footer_text">About us</a></li>
-          <li class="rewallet__link"><a href="#" class="footer_text">How does it work</a></li>
-          <li class="rewallet__link"><a href="#" class="footer_text">FAQ</a></li>
-          <li class="rewallet__link"><a href="#" class="footer_text">Wallets</a></li>
-          <li class="rewallet__link"><a href="#" class="footer_text">Blog</a></li>
-        </ul>
-        <ul class="rewallet__starimg">
-          <li><img src="./img/logo-white_star.svg" alt="star"></li>
-          <li><img src="./img/Stars_49.svg" alt="stars"></li>
-        </ul>
-      </div>
-      <div class="footer_r">
-        <ul class="rewallet__logolist">
-          <li><img src="./img/germany.svg" alt="германия"></li>
-          <li><img src="./img/Bundesblock_edited_icon.svg" alt="logo"></li>
-        </ul>
-        <p class="rewallet__copyright">© Copyright 2023 ReWallet</p>
-        <ul class="rewallet__lista">
-          <li><a class="rewallet__a" href="">Imprint</a></li>
-          <li><a class="rewallet__a" href="">Privacy Policy</a></li>
-        </ul>
-      </div>
+  <footer class="footer_container">
+
+    <h3>ReWallet</h3>
+    <div class="footer_links_block">
+      <ul class="footer_links">
+        <li><a href="#">Why ReWallet?</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">How does it work</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Wallets</a></li>
+        <li><a href="#">Blog</a></li>
+        <li>
+
+        </li>
+      </ul>
+      <ul class="rewallet__starimg">
+        <li><img src="./img/logo-white_star.svg" alt="star"></li>
+        <li><img src="./img/Stars_49.svg" alt="stars"></li>
+      </ul>
+    </div>
+
+    <div class="footer_r">
+      <ul class="rewallet__logolist">
+        <li><img src="./img/germany.svg" alt="германия"></li>
+        <li><img src="./img/Bundesblock_edited_icon.svg" alt="logo"></li>
+      </ul>
+      <p>© Copyright 2023 ReWallet</p>
+      <ul class="f_word">
+        <li><a href="#">Imprint</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+      <ul class="f_icons">
+        <li>
+          <img src="img/x_icon.png" alt="">
+        </li>
+        <li>
+          <img src="img/in_icon.png" alt="">
+        </li>
+        <li>
+          <img src="img/inst.png" alt="">
+        </li>
+      </ul>
     </div>
   </footer>
 </body>
