@@ -1,0 +1,120 @@
+h1 {
+  margin-bottom: 16px;
+  font-size: 3.6rem;
+  font-family: 'Space_Grotesk';
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+  color: #fff;
+}
+
+legend {
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+  font-family: 'Space_Grotesk';
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background-color: #2A2D51;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__logo {
+  transform: rotate(30deg);
+  scale: 150% 150%;
+  transform: skew(10deg, 10deg);
+}
+
+.form_sec {
+  flex-direction: column;
+  padding: 24px 32px;
+  margin: 20px;
+  gap: 32px;
+  background-color: #1A1E42;
+  border-radius: 8px;
+  align-items: stretch;
+
+}
+
+.form_radio_btn div {
+  display: grid;
+  grid: auto-flow/ 1fr 1fr;
+}
+
+
+.form_radio_btn input {
+  display: none;
+}
+
+.form_radio_btn label {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  margin: 0 12px;
+  background-color: #2A2D51;
+  border-radius: 8px;
+}
+
+.form_radio_group {
+  display: grid;
+  grid: auto-flow/ 1fr 1fr;
+}
+
+.form_radio_group label {
+  color: #fff;
+  padding: 10px 0;
+  margin: 0 12px;
+  background-color: #2A2D51;
+  border-radius: 8px;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.form_radio_group input {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.buttons input{
+  color: #fff;
+  width: 80px;
+  padding: 10px;
+  margin: 24px 0;
+}
+
+@media screen and (min-width:650px) {
+  .form_sec {
+    margin: 80px auto;
+    gap: 32px;
+    border-radius: 8px;
+    max-width: 650px;
+  }
+
+
+}
